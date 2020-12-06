@@ -1,0 +1,44 @@
+.container{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    background-color: gray;
+    transition-duration: 0.7s;
+}
+.sprite{
+    display:inline-block;
+    width: 50px;
+	height: 50px;
+    background: url(eeca77c0a665314d8f0a4e42a7f238c6.png) no-repeat;
+}
+#sprite1{
+    background-position: -27px -21px;
+}
+#sprite2{
+    background-position:-248px -21px;
+}
+#sprite3{
+    background-position: -491px -21px;
+}
+footer>p{
+    text-align: center;
+    font-size: small;
+}
+div>p{
+    opacity: 0;
+    color: black;
+    transform: translateY(-150px);
+}
+.photo:hover p{
+    opacity: 1;
+    background: rgba(0,0,0,0.5);
+    cursor: pointer;
+    transform: translateY(-150px);
+}
